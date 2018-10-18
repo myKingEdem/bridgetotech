@@ -1,0 +1,81 @@
+Problem #1: Given two numbers, print "# is the largest"
+
+get number1 = N1
+get number2 = N2
+
+(compare N1 and N2)
+
+if N1 < N2 
+	print "N2 is the largest"
+else
+	print "N1 is the largest"
+
+Problem #2: Create a pseudo-code for a bouncer, given a person's age, let in only people who are 21 or older
+
+get AGE
+if AGE >= 21
+ 	ALLOW
+else
+ 	BOUNCE
+
+Problem #3: Given 3 different numbers, Print the largest
+
+IF x > y AND x > z
+	THEN PRINT x
+ELSE IF y > z
+	THEN PRINT y
+ELSE
+	PRINT z
+
+Problem #4: Create Piglatin
+
+cup ==> upcay
+watch ==> atchway
+egg ==> eggay
+open ==> openay
+
+get WORD
+if first letter is (a,e,i,o,u)
+	append ay to end of "WORD"
+	then print "NEW WORD"
+else
+	move the first letter to the end of "WORD"
+	add ay to the end of "WORD"
+	then "NEW WORD"
+end
+
+'Hello World'
+
+Problem #5: How to play musical chairs
+
+PEOPLE = X
+CHAIRS = PEOPLE - 1
+
+while PEOPLE > 1
+	play music
+	move people
+	stop music
+	find seats for people
+	PERSON WITHOUT A SEAT = person standing
+	PEOPLE - PERSON WITHOUT A SEAT
+	CHAIR - 1
+end
+
+get X PEOPLE
+get X - 1 CHAIRS
+play music
+while music is playing
+	move PEOPLE in circles
+	randomly stop the music
+once the music stops
+	people take a seat
+	remove person without a seat
+	remove a one chair
+repeat the game
+stop game when there's only one person left
+
+##Home Work
+
+tdavis@theknowledgehouse.org
+sredding@
+mbenrabaa@
