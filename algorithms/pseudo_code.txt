@@ -79,3 +79,17 @@ stop game when there's only one person left
 tdavis@theknowledgehouse.org
 sredding@
 mbenrabaa@
+
+
+function middleChar (string)
+	get length of string
+	find the middle of the string
+	get the index of the character in the middle
+	return the character at that index
+end
+
+function descendingOrder (n)
+	get number
+	convert to array
+	sort_in_reverse
+end
